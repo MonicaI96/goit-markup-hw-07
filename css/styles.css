@@ -1239,6 +1239,7 @@ cursor: pointer;
   .container {
     margin: 0 auto;
     width: 1157px;
+    display:none;
   }
 */
   .header {
