@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+
+    <!-- Header Section -->
+
+    <header class="header container">
+      <div class="header-container">
+        <h1 class="logo-title">
+          <a href="index.html" class="logo active"><span>Web</span>Studio</a>
+        </h1>
+
+        <!-- Text Section -->
+
+        <div class="header-text">
+          <!-- Navigation Section -->
+
+          <nav class="navigation">
+            <ul class="navigation-links">
+              <li>
+                <a href="index.html" class="navigation-link active">Studio</a>
+              </li>
+              <li>
+                <a
+                  href="portfolio.html"
+                  class="navigation-link active"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="contacts.html" class="navigation-link active active-page"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Contacts Section -->
+
+          <ul class="contacts">
+            <li class="active">
+              <a class="contact active" href="mailto:info@devstudio.com">
+                <svg width="16px" height="10px">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="active">
+              <a class="contact active" href="tel:+12127724150">
+                <svg width="10px" height="16px">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +1 212-772-4150
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button class="menu-button js-open-menu">
+          <svg width="40px" height="40px">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="container">
+      <h1>Contacts</h1>
+     
+      
+          <!-- Contacts Section -->
+
+          <ul class="contacts">
+            <li class="active">
+              <a class="contact active" href="mailto:info@devstudio.com">
+                <svg width="16px" height="10px">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="active">
+              <a class="contact active" href="tel:+12127724150">
+                <svg width="10px" height="16px">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +1 212-772-4150
+              </a>
+            </li>
+          </ul>
+      
+    </section>
+    
+    <!-- Footer Section -->
+
+    <footer class="footer container">
+      <section class="footer-text">
+        <section class="footer-text-gap">
+          <section class="footer-adress-contacts">
+            <h2 class="logo-title">
+              <a class="logo-footer active" href="index.html">
+                <span>Web</span>Studio</a
+              >
+            </h2>
+            <ul class="contacts-footer">
+              <li>
+                <address class="address">695 Park Ave, NY 10065, USA</address>
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="contact-footer active"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+12127724150" class="contact-footer active"
+                  >+1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </section>
+          <!-- Find us on Sectoin -->
+          <section class="center-column">
+            <h3 class="find-us-on-text">Find us on</h3>
+
+            <ul class="footer-icons-list">
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  class="icon-footer"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/"
+                  class="icon-footer"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                  aria-label="Twitter"
+                >
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  class="icon-footer"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  class="icon-footer"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                  aria-label="Linkedin"
+                >
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- Subscribe Section -->
+
+        <form class="subscribe">
+          <label class="subscribe-label" for="subscribe-email">
+            Subscribe to the newsletter</label
+          >
+          <div class="subscribe-area">
+            <input
+              class="subscribe-input"
+              type="email"
+              name="email"
+              id="subscribe-email"
+              placeholder="E-mail"
+              required
+            />
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg height="24px" width="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
